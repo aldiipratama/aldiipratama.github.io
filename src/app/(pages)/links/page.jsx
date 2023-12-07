@@ -46,7 +46,7 @@ const page = () => {
   return (
     <>
       <Header />
-      <Container>
+      <Container p={0} as='main'>
         <VStack>
           <Image alt="bg-hero " src="/assets/img/bg-hero.png" w="full" />
           <Box textAlign="left" w="full">
