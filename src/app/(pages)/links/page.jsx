@@ -49,11 +49,11 @@ const page = () => {
       <Container p={0} as='main'>
         <VStack>
           <Image alt="bg-hero " src="/assets/img/bg-hero.png" w="full" />
-          <Box textAlign="left" px={4} w="full">
+          <Box textAlign="left" px={10} w="full">
             <Heading>Link Me!</Heading>
             <Text>Find Me in Sosial Media 😎</Text>
           </Box>
-          <ButtonGroup px={4} w="full">
+          <ButtonGroup px={10} w="full">
             <Button
               as={Link}
               target="_blank"
@@ -71,7 +71,7 @@ const page = () => {
               {sosialMedia[4].title}
             </Button>
           </ButtonGroup>
-          <Box w="full" px={4}>
+          <Box w="full" px={10}>
             <Heading fontSize="xl">Sosial Media</Heading>
             <ButtonGroup w="full" mt={2}>
               <Button
@@ -108,7 +108,7 @@ const page = () => {
               </Button>
             </ButtonGroup>
           </Box>
-          <Box w="full" px={4}>
+          <Box w="full" px={10}>
             <Heading fontSize="xl">Code</Heading>
             <ButtonGroup w="full" mt={2}>
               <Button
@@ -129,7 +129,7 @@ const page = () => {
               </Button>
             </ButtonGroup>
           </Box>
-          <Box w="full" px={4}>
+          <Box w="full" px={10}>
             <Heading fontSize="xl">Publication</Heading>
             <ButtonGroup w="full" mt={2}>
               <Button
