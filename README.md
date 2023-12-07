@@ -1,1 +1,1 @@
-visit here https://aldipratama.netlify.app
+visit here https://aldipratama.vercel.app
